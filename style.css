@@ -1,0 +1,55 @@
+body {
+	font-family: Arial, Helvetica;
+}
+
+table.board {
+	border-collapse: collapse;
+	background-color: #000000;
+}
+
+table.board td {
+	width: 120px;
+	height: 120px;
+	padding: 20px;
+}
+
+table.board img {
+	width: 100%;
+	height: 100%;
+}
+
+table.board tr td {
+	border: 2px solid #ffffff;
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold;
+}
+
+p.turn {
+	display: inline-block;
+	border: 2px dotted grey;
+	padding: 5px;
+}
+
+#player-turn {
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.x {
+	color: red;
+}
+
+.x:before {
+	content: 'X';
+}
+
+
+.o {
+	color: yellow;
+}
+
+.o:before {
+	content: 'O';
+}
+
